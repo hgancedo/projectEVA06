@@ -16,8 +16,8 @@ class Operaciones {
         return "no existe producto con ese código"; 
     }
 
-    public function suma($a, $b) {
-        return $a + $b;
+    public function suma($x, $y) {
+        return $x + $y;
     }
    
 }
