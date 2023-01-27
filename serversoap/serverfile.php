@@ -1,4 +1,5 @@
 <?php
+
 require "../src/operaciones.php";
 //use SoapServer
 //use SoapFault?
@@ -8,7 +9,7 @@ $param = ['uri' => $uri];
 
 try {
     $server = new SoapServer(null, $param);
-    $server->setClass('Operaciones');
+    $server->setClass('operaciones');
     $server->handle();
 } catch (SoapFault $ex) {
     die("error en soap server: " .$ex->getMessage());

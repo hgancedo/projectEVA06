@@ -1,7 +1,6 @@
 <?php
 
 namespace Clases;
-
 use Clases\Producto;
 
 class Operaciones {
@@ -15,6 +14,10 @@ class Operaciones {
             return "el precio del artículo es de: " .$pvp;
         }
         return "no existe producto con ese código"; 
+    }
+
+    public function suma($a, $b) {
+        return $a + $b;
     }
    
 }
