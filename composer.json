@@ -1,0 +1,19 @@
+{
+  "name": "heks/project-eva06",
+  "type": "project",
+  "require": {
+    "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+  },
+  "license": "gpl",
+  "autoload": {
+    "psr-4": {
+      "Clases\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "H Gancedo"
+    }
+  ],
+  "minimum-stability": "stable"
+}
