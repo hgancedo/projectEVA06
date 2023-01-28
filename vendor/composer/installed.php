@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'heks/project-eva06',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '09a7f3b60e17d45124faa2f72febef9f8b901167',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'heks/project-eva06' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '09a7f3b60e17d45124faa2f72febef9f8b901167',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

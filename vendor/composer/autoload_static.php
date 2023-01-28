@@ -20,9 +20,9 @@ class ComposerStaticInit6a1f8a5791b8902afe27ce6eaa2cc2d1
             'Symfony\\Polyfill\\Iconv\\' => 23,
             'Symfony\\Component\\OptionsResolver\\' => 34,
         ),
-        'H' => 
+        'C' => 
         array (
-            'Heks\\ProjectEva06\\' => 18,
+            'Clases\\' => 7,
         ),
     );
 
@@ -40,7 +40,7 @@ class ComposerStaticInit6a1f8a5791b8902afe27ce6eaa2cc2d1
         array (
             0 => __DIR__ . '/..' . '/symfony/options-resolver',
         ),
-        'Heks\\ProjectEva06\\' => 
+        'Clases\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

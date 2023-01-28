@@ -1,6 +1,6 @@
 <?php
 
-require "../src/operaciones.php";
+require "../src/Clases1/operaciones.php";
 //use SoapServer
 //use SoapFault?
 $uri ="http://localhost/UD06/projectEVA06/serversoap";

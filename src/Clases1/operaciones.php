@@ -1,7 +1,5 @@
 <?php
-
-namespace Clases;
-use Clases\Producto;
+require "producto.php";
 
 class Operaciones {
 

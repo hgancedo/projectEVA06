@@ -1,10 +1,5 @@
 <?php
 
-namespace Clases;
-
-use PDO;
-use PDOException;
-
 Class Conexion {
 
     private $host;
