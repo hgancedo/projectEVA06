@@ -11,7 +11,7 @@ class Operaciones {
         if($pvp) {
             return "el precio del artículo es de: " .$pvp;
         }
-        return "no existe producto con ese código"; 
+        return "no existe ningún producto con ese código"; 
     }
 
     public function suma($x, $y) {
