@@ -4,25 +4,47 @@ require "conexion.php";
 
 class Producto extends Conexion {
 
-    //private $nombre;
+    private $nombre;
     private $nombre_corto;
-    //private $descripcion;
+    private $descripcion;
     private $pvp;
-   // private $familia;
+    private $familia;
 
     public function __construct() {
         parent::__construct();
     }
 
+    public function setNombre($nom) {
+        $this->nombre = $nom;
+    }
+    public function getNombre() {
+        return $this->nombre;;
+    }
     public function setNombreCorto($nc) {
         $this->nombre_corto = $nc;
     }
+    public function getNombreCorto() {
+        return $this->nombre_corto;
+    }
+    public function setDescripcion($des) {
+        $this->descripcion = $des;
+    }
+    public function getDescripcion() {
+        return $this->descripcion;
+    }
+    public function setPvp($pvp) {
+        $this->pvp = $pvp;
+    }
+    public function getPvp() {
+        return $this->pvp;
+    }
+    public function setFamilia($fam) {
+        $this->familia = $fam;
+    }
+    public function getFamilia() {
+        return $this->familia;
+    }
 
-    /*
-        TO DO GETTERS Y SETTERS
-    }*/
-
-    //podría haber usado aquí getPVP()
     public function consultarPrecio($nombre_corto) {
 
         $sql = "SELECT pvp FROM productos WHERE nombre_corto = :c";
