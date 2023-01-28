@@ -1,4 +1,7 @@
 <?php
+namespace Clases1;
+use PDO;
+use PDOException;
 
 Class Conexion {
 

@@ -1,6 +1,7 @@
 <?php
 
-require "conexion.php";
+namespace Clases1;
+use Exception;
 
 class Producto extends Conexion {
 

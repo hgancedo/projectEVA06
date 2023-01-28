@@ -1,5 +1,7 @@
 <?php
-require "producto.php";
+namespace Clases1;
+use Clases1\Producto;
+use Clases1\Familia;
 
 class Operaciones {
 
@@ -9,13 +11,18 @@ class Operaciones {
         $pvp = $prod->consultarPrecio($nc);
 
         if($pvp) {
-            return "el precio del artículo es de: " .$pvp;
+            return $pvp;
         }
-        return "no existe ningún producto con ese código"; 
+        return "no existe producto con ese código"; 
     }
 
-    public function suma($x, $y) {
-        return $x + $y;
+    public function getFamilias() {
+        $fam = new Familia();
+        $familias = $fam->consultarFamilias();
+        if($familias) {
+            return ($familias);
+        }
+        return -1; 
     }
-   
+
 }

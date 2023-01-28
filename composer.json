@@ -7,7 +7,7 @@
   "license": "gpl",
   "autoload": {
     "psr-4": {
-      "Clases\\": "src/"
+      "Clases1\\": "src/Clases1"
     }
   },
   "authors": [
